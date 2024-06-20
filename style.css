@@ -30,70 +30,44 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.titulo-principal{
-    /* margin: 30px; */
-    padding-left: 30px;
-    font-size: 40px;
-    font-weight: bold;
-    /* text-align: center; */
+/* Productos */
+
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
 }
-
-/* Main */
-
-#banner{
-    width:100%;
-}
-
-.principal{
-    background: #CCCCCC;
-    padding: 20px;
-}
-
-.titulo-centralizado{
+.productos li {
+    display: inline-block;
     text-align: center;
-    margin: 10px;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.productos li:hover {
+    border-color: #c78c19;
+}
+.productos li:active {
+    border-color: #088c19;
+}
+.productos h2 {
     font-size: 30px;
     font-weight: bold;
 }
-
-p{
-    text-align: center;
-    margin: 10px;
-    font-size: 16px;
+.productos li:hover h2 {
+    font-size: 33px;
 }
-
-em strong{
-    color:red;
+.producto-descripcion {
+    font-size: 18px;
 }
-
-#mision{
+.producto-precio {
     font-size: 20px;
-}
-
-.diferenciales{
-    background: #FFFFFF;
-    padding: 30px;
-}
-h3.titulo-centralizado {
-    margin-bottom: 30px;
-    font-size: 24px;
-}
-.items{
-    font-style: italic;
-    font-size: 16px;
-    margin-bottom: 10px;
-    list-style-type: disc;
-}
-
-.difereciales-lista{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
-
-.imagenDiferenciales{
-    width: 50%;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 /* footer */
