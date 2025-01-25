@@ -1,3 +1,10 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
 /* Header */
 
 header {
@@ -166,6 +173,13 @@ td, th {
     width: 120px;
     float: left;
     margin: 0 20px 20px 0;
+}
+.mapa {
+    padding: 3em 0;
+}
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
 }
 .imagenDiferenciales {
     width: 60%;
