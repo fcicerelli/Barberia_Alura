@@ -147,6 +147,18 @@ td, th {
 .banner {
     width: 100%;
 }
+/* main > p {
+    background: red;
+}
+img ~ p {
+    background: green;
+}
+.principal p:not(#mision) {
+    background: orange;
+}
+img + p {
+    background: yellow;
+} */
 .principal {
     padding: 3em 0;
     background-color: #FEFEFE;
@@ -224,6 +236,11 @@ p:first-line {
 }
 .imagen-diferenciales {
     width: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000;
+}
+.imagen-diferenciales:hover {
+    opacity: 0.3;
 }
 .video {
     width: 560px;
